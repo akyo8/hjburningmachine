@@ -2,7 +2,9 @@
   {
     "inputs": [],
     "name": "alloy",
-    "outputs": [{ "internalType": "contract HyperAlloy", "name": "", "type": "address" }],
+    "outputs": [
+      { "internalType": "contract HyperAlloy", "name": "", "type": "address" }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
@@ -29,14 +31,26 @@
   {
     "inputs": [],
     "name": "factory",
-    "outputs": [{ "internalType": "contract IThugswapFactory", "name": "", "type": "address" }],
+    "outputs": [
+      {
+        "internalType": "contract IThugswapFactory",
+        "name": "",
+        "type": "address"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
     "name": "router",
-    "outputs": [{ "internalType": "contract IThugswapRouter", "name": "", "type": "address" }],
+    "outputs": [
+      {
+        "internalType": "contract IThugswapRouter",
+        "name": "",
+        "type": "address"
+      }
+    ],
     "stateMutability": "view",
     "type": "function"
   },
